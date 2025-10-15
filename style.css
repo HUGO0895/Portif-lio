@@ -79,7 +79,7 @@ nav{
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.skill-row {
+ .skill-row {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -93,34 +93,40 @@ nav{
             border-radius: 6px;
             font-size: 16px;
             font-weight: 500;
-           color: #ffffff;
-            
+            color: #ffffff;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
             gap: 10px;
             min-width: 160px;
+            cursor: pointer;
         }
         
         .skill-item:hover {
-            background-color: #ffffff;;
-           color: #000000;
-           
-           
-
+            background-color: #ffffff;
+            color: #000000;
             transform: translateY(-5px);
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
         }
         
         .skill-icon {
-            font-size: 24px;
             width: 30px;
-            text-align: center;
-          fill: currentColor !important;
-          stroke: currentColor !important;
-            
-            
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .skill-icon img {
+            width: 24px;
+            height: 24px;
+            filter: brightness(0) invert(1);
+            transition: filter 0.3s ease;
+        }
+        
+        .skill-item:hover .skill-icon img {
+            filter: brightness(0) invert(0);
         }
     .hover-approach2 {
     display: inline-block;
@@ -165,25 +171,12 @@ padding-left: 20%;
     
 } 
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 50px;
 
-}
-.footer2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 0px;
-
-}
 .skill-icon2 {
-            font-size: 34px;
-            width: 30px;
-            text-align: center;
+            font-size: 60px;
           
+            text-align: center;
+           
             
             
         }
@@ -192,12 +185,29 @@ padding-left: 20%;
 
 .ul2 {
     display: flex;
-   
-    gap: 1rem;
+   justify-content: center;
+  
+    gap: 10rem;
    
 
 }
-.ul2>li{
-    padding: 20px;
-    font-size: medium;
-}
+
+.certificate-item {
+           
+         
+           
+            padding: 35px;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            
+          
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .certificate-item:hover {
+            transform: scale(1.05);
+            
+           
+          
+        }
