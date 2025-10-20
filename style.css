@@ -119,8 +119,8 @@ nav{
         }
         
         .skill-icon img {
-            width: 24px;
-            height: 24px;
+            width:60px;
+            
             filter: brightness(0) invert(1);
             transition: filter 0.3s ease;
         }
@@ -146,10 +146,9 @@ nav{
   
 }
 .cont2 {
-    display: grid;
-    
-   
-   
+    display: grid; 
+    flex-wrap: wrap;
+    flex-direction: column;
  grid-template-columns: 1fr 1fr;
     
       
@@ -191,6 +190,12 @@ padding-left: 20%;
    
 
 }
+.ul3{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
 
 .certificate-item {
            
@@ -211,3 +216,57 @@ padding-left: 20%;
            
           
         }
+
+
+
+        @media (max-width: 768px) {
+    .cont2 {
+        grid-template-columns: 1fr; /* Muda para 1 coluna */
+        gap: 10px;
+        
+    }
+    
+    .cont2 article {
+        
+        margin: 0 auto;
+    }
+    
+    .cont2 article h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cont2 article p {
+      padding-right: 5%;
+        font-size: 1rem;
+    }
+    .cont2 > article>h1{
+    padding-left: 0%;
+    text-align: center;
+     
+     
+    
+}
+.cont2 > article>p{
+padding-left: 0%;
+    text-align: justify;
+   
+    
+} 
+    .ul2 {
+    display: flex;
+   justify-content: center;
+  
+    gap: 5rem;
+    }
+   .ul3{
+    display: flex;
+    padding-right: 2rem;
+   
+    flex-direction: column;
+  
+    
+    gap: 5rem;
+   }
+
+
+}
