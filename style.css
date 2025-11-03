@@ -148,6 +148,7 @@ nav{
 .cont2 {
     display: flex; 
     flex-direction: column;
+    margin-top: 1%;
  grid-template-columns: 1fr  ;
     
       
@@ -167,6 +168,7 @@ nav{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
+  
     justify-content: center;
 
     text-align: justify;
@@ -271,6 +273,45 @@ padding-left: 0%;
     
     gap: 5rem;
    }
+   .cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    gap: 10rem;
+    
+
+   
+
+    
+      
+ 
+
+     
+}
+.cont3 > img{
+   width: 480px;
+}
 
 
+}
+
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    gap: 10rem;
+    
+
+   
+
+    
+      
+ 
+
+     
 }
