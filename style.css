@@ -146,11 +146,9 @@ nav{
   
 }
 .cont2 {
-    display: grid; 
-    flex-wrap: wrap;
+    display: flex; 
     flex-direction: column;
-    gap: 2rem ;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr  ;
     
       
  
@@ -158,14 +156,19 @@ nav{
      
 }
 .cont2 > article>h1{
-padding-left: 20%;
+    display: flex;
+    justify-content: center;
     text-align: left;
      
      
     
 }
 .cont2 > article>p{
-padding-left: 20%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+
     text-align: justify;
    
     
