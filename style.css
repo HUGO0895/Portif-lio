@@ -225,6 +225,27 @@ nav{
            
           
         }
+        
+        
+
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    gap: 10rem;
+    
+
+   
+
+    
+      
+ 
+
+     
+}
 
 
 
@@ -298,23 +319,4 @@ padding-left: 0%;
 }
 
 
-}
-
-
-.cont3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    gap: 10rem;
-    
-
-   
-
-    
-      
- 
-
-     
-}
+        }
