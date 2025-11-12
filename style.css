@@ -133,7 +133,7 @@ nav{
     transition: all 0.5s ease-out;
    
     transform: translateZ(30px) scale(1.1);
-    opacity: 0.8;
+   
     letter-spacing: 1px;
     
 }
@@ -169,7 +169,7 @@ nav{
 }
 .cont2 > article>p{
     display: flex;
-     margin-left: 20%;
+    margin-left: 20%;
     margin-right: 20%;
     font-size: larger;
   
